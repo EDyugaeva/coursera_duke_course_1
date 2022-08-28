@@ -9,8 +9,19 @@ import java.io.File;
 public class week4 {
 
     public static void main(String[] args) {
+//        totalBirth(new FileResource());
+//        int rank = getRank(1971, "Frank", "M");
+//        System.out.println(rank);
 
-        System.out.println(getTotalBirthsRankedHigher(2012, "Ethan", "M"));
+        System.out.println(getName(1980, 350, "F"));
+        System.out.println(getName(1982, 450, "M"));
+
+        whatIsNameInYear("Susan", 1972, 2014, "F");
+        whatIsNameInYear("Owen", 1974, 2014, "M");
+
+        System.out.println(getTotalBirthsRankedHigher(1990, "Emily", "F"));
+        System.out.println(getTotalBirthsRankedHigher(1990, "Drew", "M"));
+
     }
 
     public static void totalBirth(FileResource fr) {
@@ -26,12 +37,10 @@ public class week4 {
             } else {
                 totalBoys += numBirth;
             }
-
-            System.out.println("Total birth = " + totalBirth);
-            System.out.println("Total girls birth = " + totalGirls);
-            System.out.println("Total boys birth = " + totalBoys);
-
         }
+        System.out.println("Total birth = " + totalBirth);
+        System.out.println("Total girls birth = " + totalGirls);
+        System.out.println("Total boys birth = " + totalBoys);
 
     }
 
@@ -122,7 +131,7 @@ public class week4 {
     }
 
     public static int getTotalBirthsRankedHigher(int year, String name, String gender) {
-        String fileName = "C:\\Users\\ekate\\IdeaProjects\\coursera_duke_course_1\\testing\\" + "yob" + year + "short.csv";
+        String fileName = "C:\\Users\\ekate\\IdeaProjects\\coursera_duke_course_1\\testing\\us_babynames_by_year\\" + "yob" + year + ".csv";
         FileResource fileResource = new FileResource(fileName);
         int rank = getRankFromFileResourse(fileResource, name, gender);
         int totalBirths = 0;
