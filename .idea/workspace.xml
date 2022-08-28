@@ -5,36 +5,164 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c84f7956-75f9-4e77-b651-30101d168b33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brca1line.fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/datatest1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/datatest2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/datatest3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/datatest4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/datatest5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/datatest6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/example1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/example2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/example3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/example4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter_quiz/package.bluej" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PerimeterAssignmentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_a_gene/Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_a_gene/Part2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_a_gene/Part3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_a_gene/Part4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_a_gene/URLFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_all_gene/Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_all_gene/Part2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/finding_all_gene/Part3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/using_storage_resource/Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/using_storage_resource/Part2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/using_storage_resource/Part3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week4/week4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1880s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1890s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1900s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1910s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1920s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1930s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1940s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1950s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1960s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1970s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1980s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob1990s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_decade/yob2000s.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1880.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1881.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1882.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1883.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1884.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1885.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1886.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1887.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1888.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1889.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1890.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1891.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1892.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1893.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1894.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1895.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1896.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1897.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1898.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1899.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1900.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1901.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1902.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1903.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1904.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1905.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1906.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1907.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1908.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1909.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1910.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1911.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1912.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1913.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1914.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1915.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1916.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1917.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1918.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1919.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1920.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1921.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1922.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1923.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1924.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1925.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1926.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1927.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1928.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1929.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1930.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1931.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1932.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1933.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1934.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1935.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1936.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1937.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1938.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1939.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1940.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1941.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1942.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1943.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1944.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1945.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1946.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1947.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1948.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1949.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1950.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1951.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1952.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1953.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1954.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1955.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1956.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1957.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1958.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1959.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1960.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1961.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1962.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1963.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1964.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1965.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1966.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1967.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1968.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1969.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1970.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1971.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1972.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1973.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1974.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1975.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1976.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1977.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1978.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1979.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1980.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1981.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1982.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1983.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1984.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1985.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1986.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1987.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1988.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1989.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1990.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1991.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1992.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1993.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1994.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1995.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1996.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1997.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1998.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob1999.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2001.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2002.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2003.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2004.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2005.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2006.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2007.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2008.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2009.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2010.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2011.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2012.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2013.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_by_year/yob2014.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_test/example-small.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_test/yob2012short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_test/yob2013short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/us_babynames_test/yob2014short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/yob2012short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/yob2013short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/yob2014short.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/week2/using_storage_resource/Part3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/week2/using_storage_resource/Part3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +180,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -65,24 +198,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java Study/urlFinder/URLFinder.java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "C:/Users/ekate/Downloads/apache-csv.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ekaterina\IdeaProjects\coursera_duke_course_1\src\main\java\org\example" />
@@ -91,7 +224,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.week2.using_storage_resource.Part3">
+  <component name="RunManager" selected="Application.week4">
     <configuration name="Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.week2.finding_all_gene.Part2" />
       <module name="coursera_duke_course_1" />
@@ -107,19 +240,6 @@
     </configuration>
     <configuration name="org.example.week2.finding_all_gene.Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.week2.finding_all_gene.Part1" />
-      <module name="coursera_duke_course_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.week2.finding_all_gene.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.week2.finding_all_gene.Part3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.week2.finding_all_gene.Part3" />
       <module name="coursera_duke_course_1" />
       <extension name="coverage">
         <pattern>
@@ -157,13 +277,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="week4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.week4.week4" />
+      <module name="coursera_duke_course_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week4" />
         <item itemvalue="Application.org.example.week2.using_storage_resource.Part3" />
         <item itemvalue="Application.org.example.week2.using_storage_resource.Part2" />
         <item itemvalue="Application.Part2" />
         <item itemvalue="Application.org.example.week2.finding_all_gene.Part1" />
-        <item itemvalue="Application.org.example.week2.finding_all_gene.Part3" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +317,7 @@
       <workItem from="1659862833203" duration="609000" />
       <workItem from="1660465086457" duration="8869000" />
       <workItem from="1660482900559" duration="8000" />
+      <workItem from="1661684083182" duration="5755000" />
     </task>
     <servers />
   </component>

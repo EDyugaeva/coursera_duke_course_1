@@ -37,3 +37,10 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/testing/
+/testing/us_babynames_by_decade/
+/testing/us_babynames_by_year/
+/testing/us_babynames_test/
+/testing/yob2012short.csv
+/testing/yob2013short.csv
+/testing/yob2014short.csv

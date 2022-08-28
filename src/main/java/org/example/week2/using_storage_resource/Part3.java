@@ -1,26 +1,11 @@
 package org.example.week2.using_storage_resource;
 
-import edu.duke.FileResource;
 import edu.duke.StorageResource;
 
 public class Part3 {
     Part2 part2 = new Part2();
 
-    public static void main(String args[]) {
-        FileResource fr = new FileResource("brca1line.fa");
-        Part1 part1 = new Part1();
-        String dna = fr.asString().toUpperCase();
-
-        StorageResource storageResource = part1.getAllGenes(dna);
-        System.out.println(storageResource.size());
-
-        Part3 part3 = new Part3();
-        part3.processGenes(storageResource);
-
-
-
-
-
+    public static void main(String[] args) {
 
     }
 
